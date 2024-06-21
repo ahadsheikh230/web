@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>my ultra eidit clone.</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header nav ul li{
+    list-style: none;
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+ul{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    padding: 10px;
+    margin: 0px;
+    /* color: gray; */
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(78, 78, 78);
+}
+
+.c1 .text {
+ /* display: inline; */
+ text-align: center;
+ margin-top: 50px;
+}
+
+
+.c1 .text h1{
+    display: inline;
+    
+}
+ 
+.c1 h3{
+    text-align: center;
+    margin-top: 30px;
+} 
+.c1 button{
+    padding: 12px 20px!important;
+    min-height: 48px;
+    min-width: 256px;
+    text-align: center;
+    background-color: #22fafa;
+    border: none ;
+    border-radius: 10px;
+    color: #ffffff ;
+    margin: 30px;
+    cursor: pointer;
+}
+.c1 button:hover{
+    background-color: #15bebe;
+}
+.c1 .button{
+    text-align: center;
+    cursor: pointer;
+}
+.gred1{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 30px;
+    /* padding-left: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.gred1 h3{
+    /* padding-left: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.gred button{
+    background-color: #33FF33;
+    font-size: 12px;
+    padding: 8px 15px!important;
+    min-height: 10px;
+    text-transform: none;
+    border: none;
+    border-radius: 7px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.gred button:hover{
+    background-color: #09bb09;
+}
+.gred{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    /* grid-template-rows: 250px 250px 250px 250px; */
+    margin-top: 
+    200px;
+   padding: 20px;
+    justify-content: center;
+}
+@media screen and (max-width:800px){
+    .gred{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: 250px 250px 250px 250px; */
+        margin-top: 
+        200px;
+       padding: 20px;
+        /* justify-content: center; */
+        text-align: center;
+        gap: 60px;    
+    }
+    nav{
+        flex-direction: column;
+    }
+    /* ul{
+        flex-direction: column;
+    } */
+}   
+@media screen and (max-width:500px){
+    .gred{
+        display: grid;
+        grid-template-columns: 1fr ;
+        /* grid-template-rows: 250px 250px 250px 250px; */
+        margin-top: 
+        200px;
+       padding: 20px;
+        /* justify-content: center; */
+        text-align: center;
+        /* background-color: aqua; */
+        gap: 60px;
+
+    }
+    nav{
+        flex-direction: column;
+    }
+     ul{
+        flex-direction: column;
+    } 
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="" width="150px">
+            <ul>
+                <li>Products </li>
+                <li>pricing</li>
+                <li>resourses</li>
+                <li>about us</li>
+                <li> Security and compliance</li>
+                <li><img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt=""></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="c1">
+            <div class="text">
+
+                <h1>Download <b>UltraEdit</b>  for Windows </h1>
+                <img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt="">
+            </div>
+            <div class="p">
+
+                <h3>
+                    Download and try UltraEdit before you buy it! This download includes the full Windows version of thetext editor.
+                </h3>
+            </div>
+
+            <div class="button">
+
+                <button>DOWNLOAD MAC OR LINUX VERSION</button>
+            </div>
+        </div>
+        <div class="gred1">
+            <img src="	https://www.ultraedit.com/wp-content/uploads/2023/01/UE_logo_icon_white.png" alt="" width="40px">
+            <h3>Download UltraEdit</h3><small>v2024.0(released 04/19/2024) | Hotfix</small>
+        </div>
+        <div class="gred">
+
+            <div class="1" class="items">
+                <h2>English</h2>
+                <button>Download 64-bit</button>
+            </div>
+            <div class="2" class="items">
+                <h2>Deutsch</h2>
+                German
+                <br>
+                <button>Download 64-bit</button>
+
+            </div>
+            <div class="3" class="items">
+                <h2>Italiano</h2>
+                Italian
+                <br>
+                <button>Download 64-bit</button>
+            </div>
+            <div class="4" class="items">
+                <h2>Español</h2>
+                Spanish
+                <br>
+                <button>Download 64-bit</button>
+            </div>
+            <div class="5" class="items">
+                <h2>français</h2>
+                French
+                <br>
+                <button>Download 64-bit</button>
+            </div>
+            <div class="6" class="items">
+
+
+                <h2>Português brasileiro</h2>
+                Brazilian Portuguese
+                <br>
+                <button>Download 64-bit</button>
+
+
+            </div>
+            <div class="7" class="items">
+                <h2>日本</h2>
+                Korean
+                <br>
+                <button>Download 64-bit</button>
+            </div>
+            <div class="8" class="items">
+                <h2>한국어</h2>
+                Chinese
+                <br>
+                <button>Download 64-bit</button>
+            </div>
+            <div class="9" class="items">
+                <h2>中国</h2>
+                Traditional Chinese
+                <br>
+                <button>Download 64-bit</button>
+            </div>
+            <div class="10" class="items">
+                <h2>中國</h2>
+                Japanese
+                <br>
+                <button>Download 64-bit</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
